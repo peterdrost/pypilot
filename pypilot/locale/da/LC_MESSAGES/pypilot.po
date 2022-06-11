@@ -21,7 +21,7 @@ msgstr ""
 
 #: pypilot/autopilot.py:139
 msgid "Available Pilots"
-msgstr "Tilgængelige piloter"
+msgstr "Tilgængelige autopiloter"
 
 #: pypilot/autopilot.py:161
 msgid "warning: failed to open special file"
@@ -41,7 +41,7 @@ msgstr "advarsel: kunne ikke gøre autopilot-processen realtid"
 
 #: pypilot/autopilot.py:337
 msgid "server/client is running too _slowly_"
-msgstr "server / klient kører også _slowly_"
+msgstr "server / klient kører for _langsomt_"
 
 #: pypilot/autopilot.py:343
 msgid "sensors is running too _slowly_"
@@ -49,11 +49,11 @@ msgstr "sensorer kører for langsomt"
 
 #: pypilot/autopilot.py:420
 msgid "autopilot routine is running too _slowly_"
-msgstr "autopilotrutinen kører for langsomt"
+msgstr "autopilotrutinen kører for _langsomt_"
 
 #: pypilot/autopilot.py:429
 msgid "servo is running too _slowly_"
-msgstr "servo kører for langsomt"
+msgstr "servo kører for _langsomt_"
 
 #: pypilot/boatimu.py:33
 msgid "RTIMU library not detected, please install it"
@@ -61,7 +61,7 @@ msgstr "RTIMU-biblioteket blev ikke fundet. Installer det"
 
 #: pypilot/boatimu.py:56
 msgid "Using settings file"
-msgstr "Brug af indstillingsfil"
+msgstr "Bruger indstillingsfil"
 
 #: pypilot/boatimu.py:96
 msgid "ERROR: No IMU Detected"
@@ -69,11 +69,11 @@ msgstr "FEJL: Ingen IMU fundet"
 
 #: pypilot/boatimu.py:104
 msgid "ERROR: IMU Init Failed, no inertial data available"
-msgstr "FEJL: IMU-start mislykkedes, ingen inertialdata er tilgængelige"
+msgstr "FEJL: IMU-start mislykkedes, ingen inertialdata tilgængelige"
 
 #: pypilot/boatimu.py:126
 msgid "warning, failed to make imu process realtime"
-msgstr "advarsel, kunne ikke imu-processen realtid"
+msgstr "advarsel, kunne ikke gøre imu-processen realtid"
 
 #: pypilot/boatimu.py:128
 msgid "made imu process realtime"
@@ -81,7 +81,7 @@ msgstr "lavet imu-proces i realtid"
 
 #: pypilot/boatimu.py:140
 msgid "setting initial gyro bias"
-msgstr "indstilling af indledende gyro bias"
+msgstr "indstiller start gyro bias"
 
 #: pypilot/boatimu.py:156
 msgid "imu process failed to keep time"
@@ -97,7 +97,7 @@ msgstr "imu rate indstillet til rate"
 
 #: pypilot/boatimu.py:210
 msgid "too high standing gyro bias, resetting sensors"
-msgstr "for høj stående gyro bias, nulstilling af sensorer"
+msgstr "for høj permanent gyro bias, nulstilling af sensorer"
 
 #: pypilot/boatimu.py:215
 msgid "compass out of range, resetting"
@@ -110,20 +110,20 @@ msgstr "advarsel, kalibreringsprocessen blev ikke anden"
 #: pypilot/boatimu.py:309
 msgid "warning, failed to make calibration process idle, trying renice"
 msgstr ""
-"advarsel, kunne kalibreringsprocessen ikke være inaktiv, og forsøg på at "
-"forsømme"
+"advarsel, kunne ikke gøre kalibreringsprocessen inaktiv, forsøger at renice"
+""
 
 #: pypilot/boatimu.py:311
 msgid "warning, failed to renice calibration process"
-msgstr "advarsel, mislykkedes kalibreringsprocessen"
+msgstr "advarsel, kunne ikke renice kalibreringsprocessen"
 
 #: pypilot/boatimu.py:318
 msgid "calibration loaded, starting"
-msgstr "kalibrering indlæst, startende"
+msgstr "kalibrering indlæst, starter"
 
 #: pypilot/boatimu.py:322
 msgid "failed import calibration fit"
-msgstr "mislykket importkalibreringstilpasning"
+msgstr "mislykket import  af kalibreringstilpasning"
 
 #: pypilot/boatimu.py:439
 msgid "accel values invalid"
@@ -131,11 +131,11 @@ msgstr "accel-værdier ugyldige"
 
 #: pypilot/bufferedsocket.py:55
 msgid "overflow in pypilot udp socket"
-msgstr "overløb i pypilot udp-stik"
+msgstr "overløb i pypilot udp socket"
 
 #: pypilot/bufferedsocket.py:60
 msgid "overflow in pypilot socket"
-msgstr "overløb i pypilotstik"
+msgstr "overløb i pypilot socket"
 
 #: pypilot/bufferedsocket.py:70
 msgid "failed to send udp packet"
@@ -143,7 +143,7 @@ msgstr "mislykkedes at sende udp-pakke"
 
 #: pypilot/bufferedsocket.py:79
 msgid "pypilot socket failed to send to"
-msgstr "pypilot-stikket kunne ikke sendes til"
+msgstr "pypilot socket kunne ikke sende til"
 
 #: pypilot/bufferedsocket.py:93
 msgid "socket send took too long!?!?"
@@ -151,19 +151,19 @@ msgstr "socket send tog for lang tid!?!?"
 
 #: pypilot/bufferedsocket.py:95
 msgid "socket send error"
-msgstr "stikket send fejl"
+msgstr "socket send fejl"
 
 #: pypilot/bufferedsocket.py:99
 msgid "pypilot socket exception"
-msgstr "undtagelse af pypilotstik"
+msgstr "pypilot socket undagelse"
 
 #: pypilot/bufferedsocket.py:103
 msgid "falling back to python nonblocking socket, will consume more cpu"
-msgstr "falder tilbage til python nonblocking-sokkel, forbruger mere CPU"
+msgstr "falder tilbage til python nonblocking socet, vil forbruge mere CPU"
 
 #: pypilot/bufferedsocket.py:129
 msgid "socket send error in server flush"
-msgstr "stikket sende fejl i server skylning"
+msgstr "socket send fejl i server nulstilling"
 
 #: pypilot/bufferedsocket.py:144
 msgid "error receiving data"
@@ -172,7 +172,7 @@ msgstr "fejl ved modtagelse af data"
 #: pypilot/calibration_fit.py:38
 msgid "failed to load scientific library, cannot perform calibration update!"
 msgstr ""
-"mislykkedes at indlæse videnskabeligt bibliotek, kan ikke udføre "
+"kunne ikke indlæse videnskabeligt bibliotek, kan ikke udføre "
 "kalibreringsopdatering!"
 
 #: pypilot/client.py:96
@@ -181,15 +181,15 @@ msgstr "advarsel, registrering af eksisterende værdi:"
 
 #: pypilot/client.py:157
 msgid "failed to read config file:"
-msgstr "mislykkedes at læse konfigurationsfil:"
+msgstr "kunne ikke læse konfigurationsfil:"
 
 #: pypilot/client.py:188
 msgid "failed to write config file:"
-msgstr "mislykkedes at skrive konfigurationsfil:"
+msgstr "kunne ikke skrive konfigurationsfil:"
 
 #: pypilot/client.py:190
 msgid "Exception writing config file:"
-msgstr "Undtagelsesskrivning konfigurationsfil:"
+msgstr "Undtagelse ved skrivning af konfigurationsfil:"
 
 #: pypilot/client.py:275
 msgid "invalid message from server:"
@@ -201,7 +201,7 @@ msgstr "advarsel, pypilot-klienten har allerede forbindelse"
 
 #: pypilot/client.py:311
 msgid "connect failed to"
-msgstr "forbindelse mislykkedes"
+msgstr "forbindelse mislykkedes til"
 
 #: pypilot/client.py:403
 msgid "failed to connect to"
@@ -213,7 +213,7 @@ msgstr "brug"
 
 #: pypilot/client.py:463
 msgid "set the host or ip address"
-msgstr "indstil værten eller ip-adressen"
+msgstr "indstil vært eller ip-adressen"
 
 #: pypilot/client.py:464
 msgid "print info about each value type"
@@ -221,7 +221,7 @@ msgstr "udskriv info om hver værditype"
 
 #: pypilot/client.py:465
 msgid "continuous watch"
-msgstr "kontinuerligt ur"
+msgstr "kontinuerlig overvågning"
 
 #: pypilot/client.py:466
 msgid "show this message"
@@ -233,7 +233,7 @@ msgstr "kunne ikke hente værdilisten!"
 
 #: pypilot/client.py:504
 msgid "timeout retrieving"
-msgstr "timeout hentning"
+msgstr "timeout ved hentning"
 
 #: pypilot/client.py:507
 msgid "missing"
@@ -245,7 +245,7 @@ msgid ""
 "python3 setup.py install?"
 msgstr ""
 "pypilot kunne ikke importere krævede moduler. Glemte du at køre sudo python3 "
-"setup.py installation?"
+"setup.py install?"
 
 #: pypilot/gpsd.py:45
 msgid "gpsd connected"
@@ -257,7 +257,7 @@ msgstr "gpsd kunne ikke oprette forbindelse"
 
 #: pypilot/gpsd.py:55
 msgid "exception connecting to gps"
-msgstr "undtagelse, der forbinder til GPS"
+msgstr "undtagelse ved forbindelse til GPS"
 
 #: pypilot/gpsd.py:59
 msgid "gpsd disconnected"
@@ -317,7 +317,7 @@ msgstr "mistet serie"
 
 #: pypilot/nmea.py:349
 msgid "nmea got flag for process pipe:"
-msgstr "nmea fik flag til procesrør:"
+msgstr "nmea fik flag for process pipe:"
 
 #: pypilot/nmea.py:370
 msgid "is another process accessing it?"
@@ -325,11 +325,11 @@ msgstr "har en anden proces adgang til det?"
 
 #: pypilot/nmea.py:372
 msgid "serial device timed out"
-msgstr "seriel enhed blev udløbet"
+msgstr "seriel enhed fik time-out"
 
 #: pypilot/nmea.py:428
 msgid "failed to open"
-msgstr "kunne ikke åbnes"
+msgstr "kunne ikke åbne"
 
 #: pypilot/nmea.py:484
 msgid "nmea server on port"
@@ -341,7 +341,7 @@ msgstr "bind mislykkedes."
 
 #: pypilot/nmea.py:486
 msgid "listening on port"
-msgstr "lytter til havn"
+msgstr "lytter til port"
 
 #: pypilot/nmea.py:486
 msgid "for nmea connections"
@@ -357,11 +357,11 @@ msgstr "nmea -klient mistede forbindelsen"
 
 #: pypilot/nmea.py:583
 msgid "nmea sock not in sockets!"
-msgstr "nmea sok ikke i stikkontakter!"
+msgstr "nmea sock ikke i sockets!"
 
 #: pypilot/nmea.py:594
 msgid "nmea failed to unregister socket"
-msgstr "nmea kunne ikke afmelde stikket"
+msgstr "nmea kunne ikke afmelde socket"
 
 #: pypilot/nmea.py:599
 msgid "nmea failed to remove fd"
@@ -381,27 +381,27 @@ msgstr "forbindelsesfejl"
 
 #: pypilot/nmea.py:668 pypilot/signalk.py:239
 msgid "failed to connect"
-msgstr "forbindelsen fejlede"
+msgstr "kunne ikke forbinde "
 
 #: pypilot/nmea.py:676
 msgid "nmea client connected"
-msgstr "nmea -klient tilsluttet"
+msgstr "nmea-klient tilsluttet"
 
 #: pypilot/nmea.py:705
 msgid "poll took too long in nmea process!"
-msgstr "afstemningen tog for lang tid i nmea-processen!"
+msgstr "poll tog for lang tid i nmea-processen!"
 
 #: pypilot/nmea.py:712
 msgid "nmea bridge lost server connection"
-msgstr "nmea bridge mistet serverforbindelse"
+msgstr "nmea bridge har mistet serverforbindelse"
 
 #: pypilot/nmea.py:715
 msgid "nmea bridge lost pipe to autopilot"
-msgstr "nmea bridge mistet rør til autopilot"
+msgstr "nmea bridge har mistet pipe til autopilot"
 
 #: pypilot/nmea.py:738
 msgid "nmea bridge unhandled poll flag"
-msgstr "nmea bridge uhåndteret afstemningsflag"
+msgstr "nmea bridge uhåndteret poll flag"
 
 #: pypilot/nmea.py:773
 msgid "nmea process loop too slow:"
@@ -409,15 +409,15 @@ msgstr "nmea procesløkke for langsom:"
 
 #: pypilot/nonblockingpipe.py:40
 msgid "error pipe block on recv!"
-msgstr "fejl rørblok på recv!"
+msgstr "fejl pipe bock på recv!"
 
 #: pypilot/nonblockingpipe.py:42
 msgid "failed to recv nonblocking pipe!"
-msgstr "mislykkedes med at recv non-blocking pipe!"
+msgstr "mislykkedes med recv nonblocking pipe!"
 
 #: pypilot/nonblockingpipe.py:69
 msgid "pipe full"
-msgstr "rør fuldt"
+msgstr "pipe fuldt"
 
 #: pypilot/nonblockingpipe.py:69
 msgid "cannot send"
@@ -428,8 +428,8 @@ msgid "failed to decode data socket!"
 msgstr "mislykkedes med at afkode datasocket!"
 
 #: pypilot/nonblockingpipe.py:103
-msgid "failed to encode data socket!"
-msgstr "kunne ikke kode dataforbindelse!"
+msgid "failed to encode data-socket!"
+msgstr "kunne ikke kode data-socket!"
 
 #: pypilot/nonblockingpipe.py:155
 msgid "failed write"
@@ -446,11 +446,11 @@ msgstr "dårlig rorkalibrering"
 
 #: pypilot/rudder.py:121
 msgid "bad servo rudder calibration"
-msgstr "dårlig servoror kalibrering"
+msgstr "dårlig rorservo kalibrering"
 
 #: pypilot/rudder.py:192
 msgid "servo rudder autogain failed"
-msgstr "servoror autogain mislykkedes"
+msgstr "rorservo autogain mislykkedes"
 
 #: pypilot/sensors.py:41
 msgid "sensor found"
@@ -458,11 +458,11 @@ msgstr "sensor fundet"
 
 #: pypilot/sensors.py:190
 msgid "unknown data parsed!"
-msgstr "ukendte data analyseret!"
+msgstr "ukendte data parsed!"
 
 #: pypilot/serialprobe.py:30
 msgid "error reading"
-msgstr "fejllæsning"
+msgstr "fejl ved læsning"
 
 #: pypilot/serialprobe.py:86
 msgid "found more devices by path"
@@ -470,11 +470,11 @@ msgstr "fundet flere enheder efter sti"
 
 #: pypilot/serialprobe.py:118
 msgid "removing gps device"
-msgstr "fjernelse af GPS-enhed"
+msgstr "fjerner GPS-enhed"
 
 #: pypilot/serialprobe.py:194
 msgid "no pyudev module! will scan usb devices often!"
-msgstr "intet pyudev-modul! scanner ofte usb-enheder!"
+msgstr "intet pyudev-modul! usb-enheder scannes oftere!"
 
 #: pypilot/serialprobe.py:356
 msgid "success"
@@ -498,7 +498,7 @@ msgstr "oprettelse af konfigurationsmappe:"
 
 #: pypilot/server.py:347 ui/boatplot.py:109
 msgid "failed to load"
-msgstr "kunne ikke indlæses"
+msgstr "kunne ikke indlæse"
 
 #: pypilot/server.py:358
 msgid "backup data failed as well"
@@ -514,7 +514,7 @@ msgstr "pypilot_server: bind mislykkedes; kører du allerede en server?"
 
 #: pypilot/server.py:505
 msgid "persistent store took too long!"
-msgstr "vedvarende butik tog for lang tid!"
+msgstr "permanent lagring tog for lang tid!"
 
 #: pypilot/server.py:521
 msgid "max connections reached"
@@ -522,15 +522,15 @@ msgstr "maks. forbindelser nået"
 
 #: pypilot/server.py:524
 msgid "server add socket"
-msgstr "server tilføje stikkontakt"
+msgstr "server tilføj socket"
 
 #: pypilot/server.py:534
 msgid "internal pipe closed, server exiting"
-msgstr "internt rør lukket, server afsluttes"
+msgstr "intern pipe lukket, server afslutter"
 
 #: pypilot/server.py:586
 msgid "server socket closed from flush!!"
-msgstr "serverstik lukket fra skyl !!"
+msgstr "servers ocket lukket fra nulstilling !!"
 
 #: pypilot/servo.py:460
 msgid "servo calibration invalid"
@@ -542,7 +542,7 @@ msgstr "kunne ikke åbne servo på:"
 
 #: pypilot/servo.py:596
 msgid "failed set nonblocking/exclusive"
-msgstr "mislykkedes sæt ikke-blokering / eksklusiv"
+msgstr "mislykkedet sæt nonblocking/exclusive"
 
 #: pypilot/servo.py:627 pypilot/signalk.py:159
 msgid "found"
@@ -550,11 +550,11 @@ msgstr "fundet"
 
 #: pypilot/servo.py:749
 msgid "loading servo calibration"
-msgstr "indlæsning af servokalibrering"
+msgstr "indlæser servokalibrering"
 
 #: pypilot/servo.py:753
 msgid "WARNING: using default servo calibration!!"
-msgstr "ADVARSEL: Brug af standard servokalibrering !!"
+msgstr "ADVARSEL: Bruger standard servokalibrering !!"
 
 #: pypilot/servo.py:762
 msgid "probing"
@@ -566,7 +566,7 @@ msgstr "arduino servo opdaget"
 
 #: pypilot/servo.py:787
 msgid "device needed for option"
-msgstr "enhed, der er nødvendig til valgmulighed"
+msgstr "enhed nødvendig for valg"
 
 #: pypilot/signalk.py:66
 msgid "read token"
@@ -586,7 +586,7 @@ msgstr "autodetektion ikke mulig"
 
 #: pypilot/signalk.py:77 pypilot/signalk.py:146 pypilot/signalk.py:216
 msgid "try"
-msgstr "prøve"
+msgstr "prøv"
 
 #: pypilot/signalk.py:77 pypilot/signalk.py:146 pypilot/signalk.py:216
 msgid "or"
@@ -610,7 +610,7 @@ msgstr "server fundet"
 
 #: pypilot/signalk.py:141
 msgid "probe"
-msgstr "sonde"
+msgstr "sonder"
 
 #: pypilot/signalk.py:145
 msgid "could not"
@@ -630,7 +630,7 @@ msgstr "modtaget token"
 
 #: pypilot/signalk.py:183
 msgid "failed to store token"
-msgstr "mislykkedes at gemme token"
+msgstr "mislykkedes med at gemme token"
 
 #: pypilot/signalk.py:187 pypilot/signalk.py:208
 msgid "error requesting access"
@@ -658,7 +658,7 @@ msgstr "forbundet til"
 
 #: pypilot/signalk.py:354
 msgid "Exception converting signalk->pypilot"
-msgstr "Undtagelse, der konverterer skilt-> pypilot"
+msgstr "Undtagelse ved konvertering sinalk-> pypilot"
 
 #: pypilot/signalk.py:368
 msgid "received"
@@ -670,11 +670,11 @@ msgstr "kunne ikke sende opdateringer"
 
 #: pypilot/signalk.py:428
 msgid "failed to parse msg:"
-msgstr "kunne ikke analysere msg:"
+msgstr "kunne ikke parse msg:"
 
 #: pypilot/values.py:130
 msgid "invalid initial value for range property"
-msgstr "ugyldig startværdi for områdeegenskab"
+msgstr "ugyldig startværdi for range egenskab"
 
 #: pypilot/values.py:179
 msgid "invalid set"
@@ -682,7 +682,7 @@ msgstr "ugyldigt sæt"
 
 #: pypilot/pilots/__init__.py:23
 msgid "ERROR loading"
-msgstr "FEJL indlæses"
+msgstr "FEJL ved indlæsning"
 
 #: ui/autopilot_calibration.py:166
 msgid "exception in calibration:"
@@ -698,7 +698,7 @@ msgstr "Autopilot kontrol"
 
 #: ui/autopilot_control_ui.py:39
 msgid "AP"
-msgstr "Du"
+msgstr "AP"
 
 #: ui/autopilot_control_ui.py:57 ui/autopilot_control_ui.py:67
 #: ui/autopilot_control_ui.py:460 ui/autopilot_control_ui.py:737
@@ -719,7 +719,7 @@ msgstr "Ikke relevant"
 
 #: ui/autopilot_control_ui.py:121
 msgid "port"
-msgstr "Havn"
+msgstr "bagbord"
 
 #: ui/autopilot_control_ui.py:121
 msgid "starboard"
@@ -763,7 +763,7 @@ msgstr "K&alibrering"
 
 #: ui/autopilot_control_ui.py:208 ui/scope_ui.py:108
 msgid "Close"
-msgstr "Tæt"
+msgstr "Luk"
 
 #: ui/autopilot_control_ui.py:304 ui/autopilot_control_ui.py:534
 #: ui/autopilot_control_ui.py:654
@@ -772,7 +772,7 @@ msgstr "Kalibrering"
 
 #: ui/autopilot_control_ui.py:354
 msgid "Boat is level"
-msgstr "Båden er plan"
+msgstr "Båden er i vater"
 
 #: ui/autopilot_control_ui.py:361 ui/client_wx.py:158 ui/scope_ui.py:94
 msgid "Reset"
@@ -784,7 +784,7 @@ msgstr "Justering"
 
 #: ui/autopilot_control_ui.py:399
 msgid "Heading"
-msgstr "Overskrift"
+msgstr "Kurs"
 
 #: ui/autopilot_control_ui.py:404 ui/autopilot_control_ui.py:470
 #: ui/autopilot_control_ui.py:480
@@ -797,7 +797,7 @@ msgstr "Offset"
 
 #: ui/autopilot_control_ui.py:423
 msgid "Coords"
-msgstr "Koordiner"
+msgstr "Koord."
 
 #: ui/autopilot_control_ui.py:425
 msgid "Sea"
@@ -813,7 +813,7 @@ msgstr "Anvendelsesområde"
 
 #: ui/autopilot_control_ui.py:455
 msgid "Pitch"
-msgstr "Tonehøjde"
+msgstr "Duvning"
 
 #: ui/autopilot_control_ui.py:465
 msgid "Roll"
@@ -821,7 +821,7 @@ msgstr "Rulle"
 
 #: ui/autopilot_control_ui.py:475
 msgid "Heel"
-msgstr "Hæl"
+msgstr "Krænge"
 
 #: ui/autopilot_control_ui.py:502
 msgid "alignment"
@@ -833,7 +833,7 @@ msgstr "Kalibreringsalder"
 
 #: ui/autopilot_control_ui.py:561 ui/autopilot_control_ui.py:681
 msgid "Clear"
-msgstr "Klar"
+msgstr "Ryd"
 
 #: ui/autopilot_control_ui.py:564 ui/autopilot_control_ui.py:684
 msgid "calibration locked"
@@ -841,7 +841,7 @@ msgstr "kalibrering låst"
 
 #: ui/autopilot_control_ui.py:587
 msgid "accel"
-msgstr "accelere"
+msgstr "accel"
 
 #: ui/autopilot_control_ui.py:618
 msgid "Sigma Points"
@@ -853,7 +853,7 @@ msgstr "lokal historie"
 
 #: ui/autopilot_control_ui.py:632
 msgid "current"
-msgstr "nuværende"
+msgstr "strøm"
 
 #: ui/autopilot_control_ui.py:639
 msgid "Calibration Points"
@@ -867,7 +867,7 @@ msgstr "kompas"
 msgid ""
 "Press each button when the rudder is at the correct position to calibrate."
 msgstr ""
-"Tryk på hver knap, når roret er i den rigtige position for at kalibrere."
+"Tryk på begge knapper, når roret er i den rigtige position for at kalibrere."
 
 #: ui/autopilot_control_ui.py:732
 msgid "Rudder"
@@ -888,23 +888,23 @@ msgstr "------"
 
 #: ui/autopilot_control_ui.py:770
 msgid "Rudder is Starboard Range"
-msgstr "Ror er styrbords rækkevidde"
+msgstr "Ror er i styrbord område"
 
 #: ui/autopilot_control_ui.py:773
 msgid "Scale"
-msgstr "vægt"
+msgstr "Skala"
 
 #: ui/autopilot_control_ui.py:783
 msgid "Rudder is Port Range"
-msgstr "Ror er havneområde"
+msgstr "Ror er i bagbord område"
 
 #: ui/autopilot_control_ui.py:786
 msgid "Non Linearity"
-msgstr "Ikke-lineæritet"
+msgstr "Ikke-linearitet"
 
 #: ui/autopilot_control_ui.py:803
 msgid " range +-"
-msgstr "rækkevidde + -"
+msgstr "område + -"
 
 #: ui/autopilot_control_ui.py:811
 msgid "degrees"
@@ -948,7 +948,7 @@ msgstr "Afbrudt"
 
 #: ui/client_wx.py:218
 msgid "warning, invalid choice value specified"
-msgstr "advarsel, ugyldig valgværdi specificeret"
+msgstr "advarsel, ugyldig værdi for valg specificeret"
 
 #: ui/scope_ui.py:24
 msgid "pypilot Scope"
@@ -964,7 +964,7 @@ msgstr "Skala +"
 
 #: ui/scope_ui.py:82
 msgid "Scale -"
-msgstr "Vægt -"
+msgstr "Skala -"
 
 #: ui/scope_ui.py:85
 msgid "Offset /\\"
@@ -972,11 +972,11 @@ msgstr "Offset / \\"
 
 #: ui/scope_ui.py:88
 msgid "Offset \\/"
-msgstr "Forskydning \\ /"
+msgstr "Offset \\ /"
 
 #: ui/scope_ui.py:91
 msgid "Freeze"
-msgstr "Fryse"
+msgstr "Frys"
 
 #: ui/scope_ui.py:97
 msgid "fftw"
@@ -1003,7 +1003,7 @@ msgstr "værdier ikke fundet:"
 #~ msgstr "nmea-klienten kunne ikke oprette forbindelse til"
 
 #~ msgid "failed to create nmea socket as host:port"
-#~ msgstr "kunne ikke oprette nmea-sokkel som vært: port"
+#~ msgstr "kunne ikke oprette nmea socket som vært: port"
 
 #~ msgid "terminate calibration process"
 #~ msgstr "afslut kalibreringsprocessen"
