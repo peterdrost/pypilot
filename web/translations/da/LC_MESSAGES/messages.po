@@ -36,15 +36,15 @@ msgstr "kompas eller gyrofejl!"
 
 #: static/pypilot_control.js:258
 msgid "Tack"
-msgstr "Tack"
+msgstr "Stagvending"
 
 #: static/pypilot_control.js:261
 msgid "Cancel"
-msgstr "Afbestille"
+msgstr "Afbryd"
 
 #: static/pypilot_control.js:320
 msgid "Engaged"
-msgstr "Beskæftiget"
+msgstr "Koblet til"
 
 #: static/pypilot_control.js:322
 msgid "Disengaged"
@@ -63,7 +63,7 @@ msgid ""
 "The raw sensor readings should fall on a sphere when calibrated.  The age"
 " will reset when the calibration updates."
 msgstr ""
-"De rå sensoraflæsninger skal falde på en kugle, når de kalibreres. "
+"De rå sensoraflæsninger skal falde på en kugle, når de er kalibreret. "
 "Alderen nulstilles, når kalibreringen opdateres."
 
 #: templates/calibrationplot.html:28
@@ -76,7 +76,7 @@ msgstr "Styring"
 
 #: templates/index.html:33
 msgid "Gain"
-msgstr "Gevinst"
+msgstr "Forstærkning"
 
 #: templates/index.html:36
 msgid "Calibration"
@@ -92,7 +92,7 @@ msgstr "Statistikker"
 
 #: templates/index.html:51
 msgid "Heading"
-msgstr "Overskrift"
+msgstr "Kurs"
 
 #: templates/index.html:53
 msgid "Command"
@@ -100,7 +100,7 @@ msgstr "Kommando"
 
 #: templates/index.html:96
 msgid "Magnetic Heading"
-msgstr "Magnetisk overskrift"
+msgstr "Magnetisk kurs"
 
 #: templates/index.html:97
 msgid "Pitch"
@@ -108,11 +108,11 @@ msgstr "Tonehøjde"
 
 #: templates/index.html:98
 msgid "Roll"
-msgstr "Rulle"
+msgstr "Krængning"
 
 #: templates/index.html:99
 msgid "Press"
-msgstr "Trykke"
+msgstr "Tryk"
 
 #: templates/index.html:99
 msgid "here"
@@ -120,7 +120,7 @@ msgstr "her"
 
 #: templates/index.html:100
 msgid "when the boat is level to align the inertial sensors."
-msgstr "når båden er plan for at justere inertisensorerne."
+msgstr "når båden er i vater for at justere inertisensorerne."
 
 #: templates/index.html:105
 msgid "Magnetic Heading Offset"
@@ -144,11 +144,11 @@ msgstr "centreret"
 
 #: templates/index.html:114
 msgid "port range"
-msgstr "port rækkevidde"
+msgstr "bagbord maks. rorvinkel"
 
 #: templates/index.html:115
 msgid "starboard range"
-msgstr "styrbord rækkevidde"
+msgstr "styrbord maks. rorvinkel"
 
 #: templates/index.html:116 templates/index.html:140
 msgid "reset"
@@ -168,7 +168,7 @@ msgstr "Skærm"
 
 #: templates/index.html:127
 msgid "Clear"
-msgstr "Klar"
+msgstr "Ryd"
 
 #: templates/index.html:128
 msgid "Dark"
@@ -186,7 +186,7 @@ msgstr ""
 
 #: templates/index.html:138
 msgid "Amp Hours"
-msgstr "Forstærker timer"
+msgstr "Ampere-timer"
 
 #: templates/index.html:141
 msgid "Voltage"
@@ -238,7 +238,7 @@ msgstr "Klient"
 
 #: templates/wifi.html:24
 msgid "Client Mode Address (leave blank for dhcp)"
-msgstr "Klienttilstandsadresse (lad tom for dhcp)"
+msgstr "Klient adresse (lad tom for dhcp)"
 
 #: templates/wifi.html:28
 msgid "If there is a problem, edit the file"
